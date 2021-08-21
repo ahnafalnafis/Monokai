@@ -1,0 +1,153 @@
+{
+	"name": "Monokai",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#282923",
+		"editor.foreground": "#f8f8f2",
+		"statusBar.background": "#32332d",
+		"sideBar.background": "#252522",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"editorCursor.foreground": "#f8f8f1",
+		"editor.lineHighlightBackground": "#3e3d32",
+		"selection.background": "#48473d"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#74705d"
+			}
+		},
+		{
+			"name": "Blue, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"storage.type",
+				"meta.function-call",
+				"support.function",
+				"storage.type",
+				"support.class",
+				"support.constant",
+				"markup.underline.link",
+			],
+			"settings": {
+				"foreground": "#67d8ef",
+			}
+		},
+		{
+			"name": "Orange, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"variable.parameter",
+				"variable.language",
+				"markup.heading",
+			],
+			"settings": {
+				"foreground": "#fd9621"
+			}
+		},
+		{
+			"name": "Purple, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.other",
+				"markup.list.numbered",
+				"markup.list.numbered.bullet",
+			],
+			"settings": {
+				"foreground": "#ac80ff"
+			}
+		},
+		{
+			"name": "Red2, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"keyword",
+				"storage",
+				"entity.name.tag",
+				"markup.heading",
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#f92472",
+			}
+		},
+		{
+			"name": "White, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"markup.list.unnumbered",
+				"markup.raw",
+			],
+			"settings": {
+				"foreground": "#f7f7f7"
+			}
+		},
+		{
+			"name": "White2, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"invalid",
+				"invalid.deprecated",
+			],
+			"settings": {
+				"foreground": "#f8f8f1",
+			}
+		},
+		{
+			"name": "White3, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"string.unquoted",
+				"meta.fstring.python",
+				"meta.function-call.arguments"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
+			"name": "Yellow, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"string",
+				"markup.changed",
+				"entity.name"
+			],
+			"settings": {
+				"foreground": "#e7db74"
+			}
+		},
+		{
+			"name": "Yellow2, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"entity.name",
+				"entity.other.inherited-class",
+				"entity.other.attribute-name",
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#a6e22c"
+			}
+		},
+		{
+			"name": "Yellow5, According to Monokai.sublime-color-scheme",
+			"scope": [
+				"markup.quote",
+				"meta.diff",
+				"meta.diff.header",
+				"punctuation.definition.thematic-break",
+				"punctuation.definition.blockquote"
+			],
+			"settings": {
+				"foreground": "#a88f13"
+			}
+		},
+		{
+			"name": "Self variable in Python",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground": "#ac80ff"
+			}
+		}
+	]
+}
